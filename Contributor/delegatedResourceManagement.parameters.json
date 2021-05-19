@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "Azure Lighthouse - Cloud Design"
+                        },
+        "mspOfferDescription": {
+            "value": "Management von Subscriptions über Azure Lighthouse"
+                                },
+        "managedByTenantId": {
+            "value": "421376b6-7b66-4f86-8f1a-d1a2601c85c4"
+                             },
+        "authorizations": {
+            "value": [
+                { 
+                    "principalId": "613fc9ab-33d6-4cca-98b3-e69f4e6b219c", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Mitwirkender" 
+                }, 
+                { 
+                    "principalId": "613fc9ab-33d6-4cca-98b3-e69f4e6b219c", 
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                    "principalIdDisplayName": "Leserechte entfernen"
+                    
+                }
+                        
+                     ]
+                          }                
+                    
+                    }
+}
