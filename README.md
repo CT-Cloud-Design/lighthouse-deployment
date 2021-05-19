@@ -1,4 +1,4 @@
-# azure
+# Azure Lighthouse Deployment
 
 Name | Description   | Auto-deploy   | Manual deploy |
 -----| ------------- |--------------- |------- 
