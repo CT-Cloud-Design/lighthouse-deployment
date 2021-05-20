@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "<to be filled out by MSP> Specify a title for your offer"
+            "defaultValue": "Azure Lighthouse - Cloud Design"
 
         },
         "mspOfferDescription": {
@@ -15,14 +15,14 @@
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "<to be filled out by MSP> Provide a brief description of your offer"
+            "defaultValue": "Management von Subscriptions über Azure Lighthouse"
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "<to be filled out by MSP> Provide your tenant id"
+            "defaultValue": "<Tennant-ID hinterlegen!!!!>"
         },
         "authorizations": {
             "type": "array",
@@ -31,14 +31,14 @@
             },
             "defaultValue": [
                 { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group" 
+                    "principalId": "613fc9ab-33d6-4cca-98b3-e69f4e6b219c", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Mitwirkender" 
                 }, 
                 { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
+                    "principalId": "eea9b479-3953-4587-bb07-29aa98762f3a", 
                     "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group" 
+                    "principalIdDisplayName": "Leserechte entfernen" 
                 }   
             ]
         }              
