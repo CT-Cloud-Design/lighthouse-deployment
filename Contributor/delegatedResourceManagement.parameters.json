@@ -9,7 +9,7 @@
             "value": "Management von Subscriptions über Azure Lighthouse"
                                 },
         "managedByTenantId": {
-            "value": "<Tennant-ID hinterlegen!!!!>"
+            "value": "<Tenant-ID hinterlegen!!!!>"
                              },
         "authorizations": {
             "value": [
