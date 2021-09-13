@@ -22,7 +22,7 @@
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "Tenant-ID hinterlegen!!!!"
+            "defaultValue": "Unsere Cloud Design Tenant-ID hinterlegen!!!!"
         },
         "authorizations": {
             "type": "array",
